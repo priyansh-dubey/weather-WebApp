@@ -1,0 +1,71 @@
+.container{
+    background: hsla(213, 62%, 45%, 1);
+
+    background: linear-gradient(90deg, hsla(213, 62%, 45%, 1) 0%, hsla(203, 89%, 71%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(213, 62%, 45%, 1) 0%, hsla(203, 89%, 71%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(213, 62%, 45%, 1) 0%, hsla(203, 89%, 71%, 1) 50%, hsla(0, 0%, 96%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2C6CBC", endColorstr="#71C3F7", GradientType=1 );
+
+    -webkit-box-shadow: 34px 34px 78px 16px rgba(119,190,252,1);
+    -moz-box-shadow: 34px 34px 78px 16px rgba(119,190,252,1);
+    box-shadow: 34px 34px 78px 16px rgba(119,190,252,1);
+
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 30rem;
+}
+
+.navbar{
+border-radius: 10px;
+margin: 0;
+}
+
+.main{
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.main img{
+    width: 100px;
+    padding-top: 0px;
+}
+
+#quality{
+    color: rgb(0, 161, 0);
+}
+
+form {
+    display: flex;
+}
+
+#search{
+    border-radius: 5px;
+    border-color: rgb(134, 255, 215);
+    margin: 0px 10px;
+    padding: 0px 7px;
+}
+
+#btn{
+
+    background-color: rgb(6, 146, 165);
+    border-radius: 50%;
+    width: 35px;
+    padding: 5px 9px;
+    color: white;
+
+}
+
+#btn:hover{
+
+    background-color: rgb(175, 243, 243);
+    box-shadow:
+    0 0 5px 5px rgb(62, 177, 192);
+    color: black;
+    
+
+}
